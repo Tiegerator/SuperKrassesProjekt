@@ -27,6 +27,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "super_krasser_tab"
+    },
+    {
+      "name": "Sledgehammer",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sledgehammer"
+    },
+    {
+      "name": "SledgehammerToolInHandTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sledgehammer_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecSledgehammer",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_sledgehammer"
     }
   ],
   "variable_elements": [],
@@ -34,7 +69,8 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabsuper_krasser_tab": "Super Krasser Tab",
-      "item.superkrassesprojekt.coins": "Trerint"
+      "item.superkrassesprojekt.coins": "Trerint",
+      "item.superkrassesprojekt.sledgehammer": "Sledgehammer"
     }
   },
   "workspaceSettings": {

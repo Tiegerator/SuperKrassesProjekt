@@ -1,0 +1,7 @@
+{
+  "parent": "superkrassesprojekt:custom/hammer",
+  "textures": {
+    "0": "superkrassesprojekt:blocks/hammer",
+    "particle": "superkrassesprojekt:items/wip"
+  }
+}
