@@ -1,9 +1,11 @@
 {
   "item.superkrassesprojekt.dreonyx_pixaxe": "Dreonyx Pixaxe",
   "itemGroup.tabsuper_krasser_tab": "Super Krasser Tab",
+  "item.superkrassesprojekt.gold_dust": "Gold Dust",
   "block.superkrassesprojekt.dreonyx_obsidian": "Dreonyx Obsidian",
   "block.superkrassesprojekt.dreonyx_gemblock": "Dreonyx Block",
   "item.superkrassesprojekt.coins": "Trerint",
   "item.superkrassesprojekt.sledgehammer": "Sledgehammer",
-  "item.superkrassesprojekt.dreonyx": "Dreonyx"
+  "item.superkrassesprojekt.dreonyx": "Dreonyx",
+  "item.superkrassesprojekt.iron_dust": "Iron Dust"
 }

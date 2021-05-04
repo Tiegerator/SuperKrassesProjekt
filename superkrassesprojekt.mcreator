@@ -116,6 +116,75 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rec_dreonyx_gem_block"
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_dust"
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_dust"
+    },
+    {
+      "name": "RecIronDust",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_iron_dust"
+    },
+    {
+      "name": "RecGoldDust",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_gold_dust"
+    },
+    {
+      "name": "SledgehammerRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sledgehammer_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -124,11 +193,13 @@
     "en_us": {
       "item.superkrassesprojekt.dreonyx_pixaxe": "Dreonyx Pixaxe",
       "itemGroup.tabsuper_krasser_tab": "Super Krasser Tab",
+      "item.superkrassesprojekt.gold_dust": "Gold Dust",
       "block.superkrassesprojekt.dreonyx_obsidian": "Dreonyx Obsidian",
       "block.superkrassesprojekt.dreonyx_gemblock": "Dreonyx Block",
       "item.superkrassesprojekt.coins": "Trerint",
       "item.superkrassesprojekt.sledgehammer": "Sledgehammer",
-      "item.superkrassesprojekt.dreonyx": "Dreonyx"
+      "item.superkrassesprojekt.dreonyx": "Dreonyx",
+      "item.superkrassesprojekt.iron_dust": "Iron Dust"
     }
   },
   "workspaceSettings": {

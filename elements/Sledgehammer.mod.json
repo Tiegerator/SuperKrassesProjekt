@@ -26,6 +26,9 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "SledgehammerRightClickedOnBlock"
+    },
     "onItemInUseTick": {
       "name": "SledgehammerToolInHandTick"
     }
