@@ -62,15 +62,73 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rec_sledgehammer"
+    },
+    {
+      "name": "Dreonyx",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreonyx"
+    },
+    {
+      "name": "DreonyxObsidian",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreonyx_obsidian"
+    },
+    {
+      "name": "DreonyxGemblock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreonyx_gemblock"
+    },
+    {
+      "name": "DreonyxPixaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreonyx_pixaxe"
+    },
+    {
+      "name": "RecDreonyxPick",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_dreonyx_pick"
+    },
+    {
+      "name": "RecDreonyxGemBlock",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_dreonyx_gem_block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.superkrassesprojekt.dreonyx_pixaxe": "Dreonyx Pixaxe",
       "itemGroup.tabsuper_krasser_tab": "Super Krasser Tab",
+      "block.superkrassesprojekt.dreonyx_obsidian": "Dreonyx Obsidian",
+      "block.superkrassesprojekt.dreonyx_gemblock": "Dreonyx Block",
       "item.superkrassesprojekt.coins": "Trerint",
-      "item.superkrassesprojekt.sledgehammer": "Sledgehammer"
+      "item.superkrassesprojekt.sledgehammer": "Sledgehammer",
+      "item.superkrassesprojekt.dreonyx": "Dreonyx"
     }
   },
   "workspaceSettings": {

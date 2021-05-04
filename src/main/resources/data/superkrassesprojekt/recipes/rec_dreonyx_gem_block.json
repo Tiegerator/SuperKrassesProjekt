@@ -1,0 +1,42 @@
+{
+  "group": "superkrassesprojekt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "1": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "2": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "3": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "4": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "5": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "6": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "7": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "8": {
+      "item": "superkrassesprojekt:dreonyx"
+    }
+  },
+  "result": {
+    "item": "superkrassesprojekt:dreonyx_gemblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "superkrassesprojekt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "1": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "2": {
+      "item": "superkrassesprojekt:dreonyx"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "superkrassesprojekt:dreonyx_pixaxe",
+    "count": 1
+  }
+}
