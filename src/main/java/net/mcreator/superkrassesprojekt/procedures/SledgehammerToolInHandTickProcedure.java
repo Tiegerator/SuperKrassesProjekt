@@ -9,6 +9,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.superkrassesprojekt.item.SledgehammerItem;
 import net.mcreator.superkrassesprojekt.SuperkrassesprojektModElements;
+import net.mcreator.superkrassesprojekt.SuperkrassesprojektMod;
 
 import java.util.Map;
 
@@ -21,7 +22,7 @@ public class SledgehammerToolInHandTickProcedure extends SuperkrassesprojektModE
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure SledgehammerToolInHandTick!");
+				SuperkrassesprojektMod.LOGGER.warn("Failed to load dependency entity for procedure SledgehammerToolInHandTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

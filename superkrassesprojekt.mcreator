@@ -213,6 +213,10 @@
       "item.superkrassesprojekt.iron_dust": "Iron Dust"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "superkrassesprojekt",
     "modName": "SuperKrassesProjekt",
@@ -229,5 +233,5 @@
     "modElementsPackage": "net.mcreator.superkrassesprojekt",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100118117
 }

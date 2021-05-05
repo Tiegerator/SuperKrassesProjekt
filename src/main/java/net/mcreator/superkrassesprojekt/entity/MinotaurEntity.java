@@ -52,7 +52,9 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 
 @SuperkrassesprojektModElements.ModElement.Tag
 public class MinotaurEntity extends SuperkrassesprojektModElements.ModElement {
-	public static EntityType entity = null;
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.6f, 1.8f)).build("minotaur").setRegistryName("minotaur");
 	public MinotaurEntity(SuperkrassesprojektModElements instance) {
 		super(instance, 18);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -60,9 +62,6 @@ public class MinotaurEntity extends SuperkrassesprojektModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
-						.build("minotaur").setRegistryName("minotaur");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -6140660, -11910333, new Item.Properties().group(SuperKrasserTabItemGroup.tab))
 				.setRegistryName("minotaur_spawn_egg"));
@@ -170,6 +169,12 @@ public class MinotaurEntity extends SuperkrassesprojektModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8);
+			if (this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE);
+			this.getAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE).setBaseValue(0.5D);
+			if (this.getAttribute(SharedMonsterAttributes.ATTACK_KNOCKBACK) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_KNOCKBACK);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_KNOCKBACK).setBaseValue(0.2D);
 		}
 	}
 
