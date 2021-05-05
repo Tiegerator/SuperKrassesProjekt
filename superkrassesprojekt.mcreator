@@ -185,6 +185,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Minotaur",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minotaur"
     }
   ],
   "variable_elements": [],
@@ -193,9 +202,11 @@
     "en_us": {
       "item.superkrassesprojekt.dreonyx_pixaxe": "Dreonyx Pixaxe",
       "itemGroup.tabsuper_krasser_tab": "Super Krasser Tab",
+      "entity.superkrassesprojekt.minotaur": "Minotaur",
       "item.superkrassesprojekt.gold_dust": "Gold Dust",
-      "block.superkrassesprojekt.dreonyx_obsidian": "Dreonyx Obsidian",
+      "block.superkrassesprojekt.dreonyx_obsidian": "Dreonyx Ore",
       "block.superkrassesprojekt.dreonyx_gemblock": "Dreonyx Block",
+      "item.superkrassesprojekt.minotaur_spawn_egg": "Minotaur Spawn Egg",
       "item.superkrassesprojekt.coins": "Trerint",
       "item.superkrassesprojekt.sledgehammer": "Sledgehammer",
       "item.superkrassesprojekt.dreonyx": "Dreonyx",

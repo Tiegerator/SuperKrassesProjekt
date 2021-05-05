@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Dreonyx Obsidian",
+    "name": "Dreonyx Ore",
     "specialInfo": [],
     "hardness": 50.0,
     "resistance": 1200.0,
@@ -98,12 +98,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.STONE#0"
       }
     ],
     "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 12
   }
 }

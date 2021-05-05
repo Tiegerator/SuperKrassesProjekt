@@ -8,7 +8,7 @@
     "name": "Gold Dust",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SuperKrasserTab"
     },
     "stackSize": 64,
     "enchantability": 0,
